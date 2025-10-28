@@ -1,0 +1,78 @@
+{
+  "snapshot_id": "snap-1761655012",
+  "node_id": "w0",
+  "ts": 1761655012.69838,
+  "state": {
+    "worker_id": "w0",
+    "shard_index": 0,
+    "count_primes": 12953,
+    "count_msgs": 12954,
+    "assignments": [
+      {
+        "file": "numbers.txt",
+        "start": 1600000,
+        "end": 1800000,
+        "pos": 1800005
+      },
+      {
+        "file": "numbers.txt",
+        "start": 400000,
+        "end": 600000,
+        "pos": 600002
+      },
+      {
+        "file": "numbers.txt",
+        "start": 600000,
+        "end": 800000,
+        "pos": 800006
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1800000,
+        "end": 1988886,
+        "pos": 1988886
+      },
+      {
+        "file": "numbers.txt",
+        "start": 800000,
+        "end": 1000000,
+        "pos": 1000003
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1800000,
+        "end": 1988886,
+        "pos": 1988886
+      },
+      {
+        "file": "numbers.txt",
+        "start": 0,
+        "end": 200000,
+        "pos": 200002
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1000000,
+        "end": 1200000,
+        "pos": 1200000
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1400000,
+        "end": 1600000,
+        "pos": 1600001
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1800000,
+        "end": 1988886,
+        "pos": 1988886
+      }
+    ],
+    "db": {
+      "primes_path": "sharddb_w0/primes.txt",
+      "msgs_path": "sharddb_w0/msgs.txt"
+    },
+    "ts": 1761655012.6983092
+  }
+}

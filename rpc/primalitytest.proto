@@ -1,0 +1,56 @@
+syntax = "proto3";
+package prime;
+
+service ControlService {
+  rpc Heartbeat(Empty) returns (Ack) {}
+  rpc SnapshotMarker(SnapshotMarkerReq) returns (Ack) {}
+  rpc SnapshotCollect(SnapshotCollectReq) returns (SnapshotBlob) {}
+  rpc Restore(RestoreReq) returns (Ack) {}
+}
+
+service CoordinatorService {
+  rpc AssignChunk(Chunk) returns (Ack) {}
+}
+
+service ShardService {
+  // A worker calls EmitPrime on the *owner* worker (shard)
+  rpc EmitPrime(PrimeMsg) returns (Ack) {}
+}
+
+message Empty {}
+
+message Ack {
+  bool ok = 1;
+  string msg = 2;
+}
+
+message Chunk {
+  string file = 1;
+  int64 start = 2;
+  int64 end = 3;
+}
+
+message PrimeMsg {
+  string worker_id = 1;
+  string msg_id = 2;
+  uint64 prime = 3;
+}
+
+message SnapshotMarkerReq {
+  string snapshot_id = 1;
+  string from_node = 2;
+}
+
+message SnapshotCollectReq {
+  string snapshot_id = 1;
+}
+
+message SnapshotBlob {
+  string snapshot_id = 1;
+  string node_id = 2;
+  string json_state = 3; // serialized JSON of local+channel state
+}
+
+message RestoreReq {
+  string snapshot_id = 1;
+}

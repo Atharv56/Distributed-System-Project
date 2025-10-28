@@ -1,0 +1,46 @@
+[
+  {
+    "worker_id": "w0",
+    "shard_index": 0,
+    "count_primes": 0,
+    "count_msgs": 0,
+    "assignments": [
+      {
+        "file": "numbers.txt",
+        "start": 1800000,
+        "end": 1988886,
+        "pos": 1800089
+      },
+      {
+        "file": "numbers.txt",
+        "start": 200000,
+        "end": 400000,
+        "pos": 200000
+      }
+    ],
+    "db": {
+      "primes_path": "sharddb_w0/primes.txt",
+      "msgs_path": "sharddb_w0/msgs.txt"
+    },
+    "ts": 1761653554.703945
+  },
+  {
+    "worker_id": "w1",
+    "shard_index": 1,
+    "count_primes": 1,
+    "count_msgs": 1,
+    "assignments": [
+      {
+        "file": "numbers.txt",
+        "start": 1000000,
+        "end": 1200000,
+        "pos": 1000003
+      }
+    ],
+    "db": {
+      "primes_path": "sharddb_w1/primes.txt",
+      "msgs_path": "sharddb_w1/msgs.txt"
+    },
+    "ts": 1761653554.704126
+  }
+]

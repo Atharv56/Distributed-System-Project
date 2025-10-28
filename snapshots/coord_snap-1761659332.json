@@ -1,0 +1,9 @@
+{
+  "snapshot_id": "snap-1761659332",
+  "node_id": "coord",
+  "ts": 1761659332.925793,
+  "state": {
+    "pending_chunks": 0,
+    "ts": 1761659332.925726
+  }
+}

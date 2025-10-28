@@ -1,0 +1,101 @@
+[
+  {
+    "worker_id": "w0",
+    "shard_index": 0,
+    "count_primes": 12953,
+    "count_msgs": 12953,
+    "assignments": [
+      {
+        "file": "numbers.txt",
+        "start": 1400000,
+        "end": 1600000,
+        "pos": 1600001
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1800000,
+        "end": 1988886,
+        "pos": 1988886
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1200000,
+        "end": 1400000,
+        "pos": 1400004
+      },
+      {
+        "file": "numbers.txt",
+        "start": 800000,
+        "end": 1000000,
+        "pos": 1000003
+      }
+    ],
+    "db": {
+      "primes_path": "sharddb_w0/primes.txt",
+      "msgs_path": "sharddb_w0/msgs.txt"
+    },
+    "ts": 1761661334.318103
+  },
+  {
+    "worker_id": "w1",
+    "shard_index": 1,
+    "count_primes": 13044,
+    "count_msgs": 13044,
+    "assignments": [
+      {
+        "file": "numbers.txt",
+        "start": 600000,
+        "end": 800000,
+        "pos": 800006
+      },
+      {
+        "file": "numbers.txt",
+        "start": 0,
+        "end": 200000,
+        "pos": 200002
+      },
+      {
+        "file": "numbers.txt",
+        "start": 400000,
+        "end": 600000,
+        "pos": 600002
+      }
+    ],
+    "db": {
+      "primes_path": "sharddb_w1/primes.txt",
+      "msgs_path": "sharddb_w1/msgs.txt"
+    },
+    "ts": 1761661334.318466
+  },
+  {
+    "worker_id": "w2",
+    "shard_index": 2,
+    "count_primes": 0,
+    "count_msgs": 0,
+    "assignments": [
+      {
+        "file": "numbers.txt",
+        "start": 1000000,
+        "end": 1200000,
+        "pos": 1200000
+      },
+      {
+        "file": "numbers.txt",
+        "start": 200000,
+        "end": 400000,
+        "pos": 400000
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1600000,
+        "end": 1800000,
+        "pos": 1800005
+      }
+    ],
+    "db": {
+      "primes_path": "sharddb_w2/primes.txt",
+      "msgs_path": "sharddb_w2/msgs.txt"
+    },
+    "ts": 1761661334.3180952
+  }
+]

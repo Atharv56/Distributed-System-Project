@@ -1,0 +1,24 @@
+{
+  "snapshot_id": "snap-1761653554",
+  "node_id": "w1",
+  "ts": 1761653554.7041469,
+  "state": {
+    "worker_id": "w1",
+    "shard_index": 1,
+    "count_primes": 1,
+    "count_msgs": 1,
+    "assignments": [
+      {
+        "file": "numbers.txt",
+        "start": 1000000,
+        "end": 1200000,
+        "pos": 1000003
+      }
+    ],
+    "db": {
+      "primes_path": "sharddb_w1/primes.txt",
+      "msgs_path": "sharddb_w1/msgs.txt"
+    },
+    "ts": 1761653554.704126
+  }
+}

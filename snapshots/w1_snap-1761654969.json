@@ -1,0 +1,48 @@
+{
+  "snapshot_id": "snap-1761654969",
+  "node_id": "w1",
+  "ts": 1761654969.761952,
+  "state": {
+    "worker_id": "w1",
+    "shard_index": 1,
+    "count_primes": 25996,
+    "count_msgs": 39044,
+    "assignments": [
+      {
+        "file": "numbers.txt",
+        "start": 1000000,
+        "end": 1200000,
+        "pos": 1200000
+      },
+      {
+        "file": "numbers.txt",
+        "start": 0,
+        "end": 200000,
+        "pos": 200002
+      },
+      {
+        "file": "numbers.txt",
+        "start": 200000,
+        "end": 400000,
+        "pos": 400000
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1200000,
+        "end": 1400000,
+        "pos": 1400004
+      },
+      {
+        "file": "numbers.txt",
+        "start": 1400000,
+        "end": 1600000,
+        "pos": 1600001
+      }
+    ],
+    "db": {
+      "primes_path": "sharddb_w1/primes.txt",
+      "msgs_path": "sharddb_w1/msgs.txt"
+    },
+    "ts": 1761654969.761939
+  }
+}
